@@ -1,0 +1,21 @@
+body{color:rgb(0, 255, 21)}
+a{color:red}
+a{text-decoration: none}
+img{
+    width: 100%;
+}
+
+.navtop{
+    min-width: 500px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.navtop a{
+    text-transform: uppercase;
+}
+
+.navtop li{
+    display: inline;
+    margin-right: 15px;
+}
