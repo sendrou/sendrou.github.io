@@ -1,0 +1,24 @@
+body{color:rgb(26, 14, 138)}
+a{color:green}
+a{text-decoration: none}
+img{
+    width: 100%;
+}
+
+.navtop{
+    min-width: 500px;
+    background-color: #ccc;
+    text-align: center;
+    overflow: hidden;
+}
+
+.navtop a{
+    text-transform: uppercase;
+    color: white;
+}
+
+.navtop li{
+    display: inline;
+    margin-right: 15px;
+    padding: 15px;
+}
