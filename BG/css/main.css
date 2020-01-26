@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(92, 165, 224);
+  background-image: linear-gradient(
+    to right,
+    rgb(54, 141, 255),
+    rgb(51, 122, 250),
+    rgb(48, 103, 245),
+    rgb(45, 83, 240),
+    rgb(42, 64, 235),
+    rgb(39, 45, 230),
+    rgb(38, 74, 226),
+    rgb(38, 102, 222),
+    rgb(37, 131, 219),
+    rgb(36, 159, 215),
+    rgb(36, 188, 211),
+    rgb(35, 216, 207)
+  );
+}
+.container {
+  background-color: rgb(134, 154, 243);
+  background-image: url("../img/bird.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
