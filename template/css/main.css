@@ -1,3 +1,16 @@
+/* общие настройки страницы */
+
+
+body,
+*{
+  font-family: "Times New Roman";
+  font-size: 20px;  
+}
+/* первый блок----------------------------------------------------- */
+.first {
+  padding: 15px;
+}
+
 .phone {
   font-family: "Verdana";
   font-size: 18px;
@@ -11,13 +24,15 @@
 .call a {
   border-radius: 25px;
 }
+/* второй блок----------------------------------- */
 .second {
   font-family: "Times New Roman";
-  background-color: #3a5896;
   color: #fff;
+  background-color: #3a5896;
+  /* z-index: 250; */
   position: relative;
-  z-index: 100;
 }
+
 .second h1 {
   text-transform: uppercase;
   font-weight: bold;
@@ -25,45 +40,116 @@
   line-height: 36px;
   margin-top: 25px;
 }
+
 .second p {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
   margin-bottom: 25px;
 }
-.first {
-  padding: 15px;
-}
 
 .figura {
   position: absolute;
-  bottom: -31px;
+  /* outline: 1px solid red; */
+  bottom: -30px;
   left: calc(50% - 31px);
   width: 61px;
   height: 31px;
-  /* border-style: solid;
+  z-index: 1300;
+  border-style: solid;
   border-width: 31px 30.5px 0 30.5px;
-  border-color: #3a5996 transparent transparent transparent; */
-  z-index: 300;
+  border-color: #3a5996 transparent transparent transparent;
+  /* background-image: url("../img/figura.png"); */
 }
-.banner {
+/* третий блок--------------------------------------------- */
+.baner {
+  /* outline: 1px solid red; */
   height: 430px;
   /* после установки карусели удалить фиксированную высоту блока */
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  /* z-index: 150; */
   position: relative;
-  z-index: 100;
 }
 
-.banner .item1 {
+.baner .item1 {
   position: absolute;
-  bottom: 0%;
-  left: 10%;
+  bottom: 0;
+  left: 5%;
+  /* z-index: 1000; */
 }
 
-.banner .item2 {
+.baner .item2 {
   position: absolute;
-  bottom: -175px;
-  right: 3%;
+  bottom: -165px;
+  right: 2%;
+}
+
+.carousel{
+  height:400px;
+  width: 70%;
+  font-weight: bold;
+  font-style: italic;
+}
+.carousel-item{
+  text-align: center;
+  margin-top: 120px;
+}
+.carousel-indicators li{
+background-color: #555;
+}
+
+.carousel .fas{
+color: #555;
+}
+.carousel a{
+  border-radius: 25px;
+}
+/* pig блок--------------------------------------------------- */
+.itemR{
+  width: 50%;
+  margin-top: 120px;
+  border: 10px solid #2E5480;
+  text-align: center;
+}
+
+.itemR h2{
+  font-size: 22px;
+  font-weight: bold;
+  padding: 50px 80px 20px 80px;
+}
+
+.itemR .podZ{
+font-size: 16px;
+font-style: italic;
+font-weight: bold;
+}
+
+.itemR form .btn{
+border-radius: 25px;
+}
+
+.itemR form .btn, .telPig{
+  border-radius: 28px;
+  height: 56px;
+}
+
+.telPig{
+  margin: 30px auto 15px auto;
+  text-align: center;
+  border-style: solid;
+  border-color: #ccc;
+}
+.itemR form .btn{
+  margin-bottom: 30px;
+}
+
+.telPig:focus{
+  outline: none;
+  border-color: #dc3545;
+}
+
+.itemL{
+  width: 50%;
 }
