@@ -14,7 +14,7 @@ body,
 .phone {
   font-family: "Verdana";
   font-size: 18px;
-  align: right;
+  text-align: right;
 }
 
 .phone a {
@@ -219,4 +219,115 @@ text-align: center;
 font-size:18px;
 color:black;
 font-weight: normal;
+padding:120px 0 0 120px;
 }
+
+.pluses .itemCard{
+  text-align: left;
+}
+
+.pluses .itemCard1{
+  background-image: url("../img/pluses1.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.pluses .itemCard2{
+  background-image: url("../img/pluses2.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.pluses .itemCard3{
+  background-image: url("../img/pluses3.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.pluses .itemCard4{
+  background-image: url("../img/pluses4.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+/* -----------------------start femida---------------------- */
+.box{
+  margin-top: 69px;
+  border: 10px solid #2E5480;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+.femida h3{
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 40px;
+}
+
+
+.box .podZ1{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 30px;
+  }
+  
+  .box form .btn{
+  border-radius: 25px;
+  }
+  
+  .box form .btn, .telFemida{
+    border-radius: 28px;
+    height: 56px;
+  }
+  
+  .telFemida{
+    margin: auto auto auto 150px;
+    text-align: center;
+    border-style: solid;
+    border-color: #ccc;
+  }
+  .box form .btn{
+    margin:auto 150px auto auto;
+  }
+  
+  .telFemida:focus{
+    outline: none;
+    border-color: #dc3545;
+  }
+  
+  .box .check1{
+  margin-top: 30px;
+  }
+
+  .femida h4{
+    padding-top: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+  }
+  .femida .p1{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+  .femida .row p{
+    font-size: 20px;
+  }
+  .femida{
+    position: relative;
+  }
+  .femida img{
+    position: absolute;
+    left: 79%;
+    bottom: -70px;
+  }
+  .femida .col-11{
+    margin-left: 50px;
+    margin-top: -23px;
+    padding-bottom: 20px;
+  }
